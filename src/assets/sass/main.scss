@@ -75,8 +75,7 @@ nav{
             gap: 15px;
         }
         @include media(700) {
-            // display: none;
-            overflow: hidden;
+           
             position: absolute;
           flex-direction: column;
           top: 0;
@@ -84,7 +83,8 @@ nav{
           width: 150px;
           padding: 40px 15px;
           background-color: rgba(17, 17, 17, 0.864);
-          transform: translateX(100%); 
+          transform: translateY(-120%); 
+          overflow: hidden;
           transition: 0.4s;
         }
         @include media(600){
@@ -104,7 +104,7 @@ nav{
             &.open {
              
                 display: flex;
-              transform: translateX(0); 
+              transform: translateY(0); 
               transition: 0.4s;
               border-radius: 10px 0 0 10px;
             }
