@@ -1,5 +1,6 @@
 @use "../sass/common" as *;
 @use "../sass/media.scss" as *;
+@use "../sass/fonst.scss" as *;
 
 
 nav{
@@ -385,11 +386,12 @@ nav{
         }
 
         .project_img{
-            width: 350px;
+            max-width: 350px;
             width: 100%;
             height: 500px;
             border-radius: 10px;
             border: solid 3px purple;
+            object-fit: cover;
             @include media(1000){
                 max-width: 280px;
                 height: 430px; 

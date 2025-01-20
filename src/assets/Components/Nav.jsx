@@ -32,7 +32,7 @@ const Nav = () => {
             </li>
             <li>
               <button className="btn">
-                <a href="../Vite + React.pdf">Download</a>
+                <a  download="/public/pdf.pdf" href="/public/pdf.pdf">Download</a>
               </button>
             </li>
           </ul>
